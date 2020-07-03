@@ -1,0 +1,23 @@
+package Buoi2;
+
+import java.util.Scanner;
+
+public class Ls1 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Nhap a");
+		int a= sc.nextInt();
+		System.out.println("Nhap b");
+		int b= sc.nextInt();
+		Ls1 ls1=new Ls1();
+		int kq=ls1.tinhCong(a, b);
+		
+		
+
+	}
+	public int tinhCong(int a,int b){
+		return a+b;
+	}
+
+}
