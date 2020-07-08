@@ -1,5 +1,7 @@
 package com.tan.baitapbuoi2;
 
+import vn.t3h.ls3.StaticArray;
+
 public class BaiTapBuoi2 {
 
 	public static void main(String[] args) {
@@ -17,6 +19,7 @@ public class BaiTapBuoi2 {
 			giaithua*=i;
 		}
 		System.out.println(giaithua);
+		
 
 	}
 
